@@ -1,0 +1,36 @@
+html {
+
+	head {
+		meta {
+	      attribute(" http-equiv" -> "X-UA-Compatible")
+	      attribute("content" -> "IE=edge")
+	    }
+	    
+	    meta {
+	
+	      attribute("name" -> "viewport")
+	      attribute("content" -> "width=device-width, initial-scale=1.0")
+	    }
+	    
+    	stylesheet("http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css")
+    	stylesheet("http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css")
+
+
+
+
+
+  		script {
+      		attribute("src" -> "//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js")
+		}
+	}
+	
+	body {
+	
+			h1("In Design Welcome")
+	
+	
+	}
+
+
+
+}
