@@ -27,6 +27,29 @@ html {
 	body {
 	
 			h1("In Design Welcome")
+			
+			// Pick up some file
+			//------------------------
+			table[java.io.File] {
+			
+				t => 
+					t.column("Path") {
+						
+						c=> 
+						
+							c.content {
+								f => f.getAbsolutePath
+							}
+					}
+					
+					t.column("Last Modified") {
+						c => 
+						
+							c.content {
+								f => f.getL
+							}
+					}
+			}
 	
 	
 	}
